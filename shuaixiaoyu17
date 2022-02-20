@@ -5,591 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_437 | 7.02Mb, server: 120.232.239.17, port: 26010, type: vmess, uuid: 4b8010fb-60b7-341a-b1b6-135ed84ced4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_617 |83.58Mb, server: 18.162.222.253, port: 38273, type: ss, cipher: aes-256-gcm, password: 3b07447e-94cf-4d72-96c6-d0a539098049, udp: true}
-  - {name: CN_442 |16.09Mb, server: 120.232.239.5, port: 26010, type: vmess, uuid: 4b8010fb-60b7-341a-b1b6-135ed84ced4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_472 | 5.15Mb, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: JP_677 | 3.68Mb, server: 146.56.111.194, port: 18408, type: vmess, uuid: 92a5db6f-e3bb-422e-caba-fb52df9350c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: EE_423 |18.88Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_395 | 8.47Mb, server: 120.232.40.42, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.40.42}, udp: true}
-  - {name: CN_394 | 9.85Mb, server: 120.232.208.195, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.208.195}, udp: true}
-  - {name: CN_369 | 7.18Mb, server: 120.232.208.195, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.208.195}, udp: true}
-  - {name: EE_546 |20.61Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2907 |27.34Mb, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: CN_412 | 7.52Mb, server: 120.232.40.42, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.40.42}, udp: true}
-  - {name: CN_380 | 1.92Mb, server: 112.14.22.104, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 112.14.22.104}, udp: true}
-  - {name: _23 | 0.03Mb, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CN_386 | 4.18Mb, server: 112.14.22.104, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 112.14.22.104}, udp: true}
-  - {name: CN_381 | 6.46Mb, server: 120.232.208.195, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.208.195}, udp: true}
-  - {name: CN_379 | 5.90Mb, server: 120.232.208.195, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.208.195}, udp: true}
-  - {name: CN_384 | 3.88Mb, server: 112.14.22.104, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 112.14.22.104}, udp: true}
-  - {name: CN_389 | 4.72Mb, server: 120.232.182.190, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.182.190}, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇦CA_281, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: CN_376 |10.67Mb, server: 120.232.40.42, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.40.42}, udp: true}
-  - {name: CN_385 | 5.05Mb, server: 120.232.40.42, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.40.42}, udp: true}
-  - {name: CN_382 |11.94Mb, server: 120.232.40.42, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.40.42}, udp: true}
-  - {name: CN_397 | 7.36Mb, server: 120.232.214.210, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.214.210}, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_283, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: US_2895 |46.29Mb, server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: CN_451 | 8.91Mb, server: 120.232.214.210, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.214.210}, udp: true}
-  - {name: "|25.30Mb", server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_438 | 8.09Mb, server: 120.232.214.210, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.214.210}, udp: true}
-  - {name: US_1810 |16.36Mb, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_390 | 4.70Mb, server: 120.232.182.190, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 120.232.182.190}, udp: true}
-  - {name: US_1674 |48.57Mb, server: 38.75.136.116, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: FR_472 | 5.67Mb, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|16.49Mb", server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_478 |10.44Mb, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1165 |49.64Mb, server: 38.75.136.116, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1809 |16.76Mb, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1663 | 9.10Mb, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: FR_473 | 4.33Mb, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2849 |30.45Mb, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: FR_525 | 8.96Mb, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: FR_480 | 8.41Mb, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1637 | 3.26Mb, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1382 |13.98Mb, server: 172.99.190.92, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2379 | 8.02Mb, server: vincent-jackson2021.ga, port: 443, type: trojan, password: a2c47c59-a4c8-4d66-9456-966ba37dedcc, sni: vincent-jackson2021.ga, skip-cert-verify: true, udp: true}
-  - {name: FR_560 | 7.96Mb, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: FR_524 | 8.64Mb, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_2655 |31.59Mb, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2850 |31.33Mb, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2911 |80.90Mb, server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: US_1657 |17.13Mb, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_465 | 8.13Mb, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.37Mb", server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_479 | 8.67Mb, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_2844 |30.52Mb, server: 134.195.196.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _22 |29.34Mb, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2847 |30.67Mb, server: 134.195.196.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_2859 |31.28Mb, server: 134.195.196.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CN_398 | 2.00Mb, server: 112.14.22.104, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 112.14.22.104}, udp: true}
-  - {name: US_1988 | 8.98Mb, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_2846 |30.61Mb, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CN_396 | 7.17Mb, server: 120.232.214.210, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.214.210}, udp: true}
-  - {name: ZZ_2533 |27.24Mb, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2561 |29.37Mb, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1656 |19.35Mb, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|17.82Mb", server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_2758 | 6.15Mb, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: FR_527 | 8.92Mb, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CN_480 | 4.03Mb, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: US_1986 |15.02Mb, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_2848 |30.54Mb, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|24.02Mb", server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1662 | 9.25Mb, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2852 |31.05Mb, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: GB_700 |48.00Mb, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_499 |19.30Mb, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2534 |29.20Mb, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|15.20Mb", server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_432 | 6.49Mb, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1987 |10.59Mb, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: FR_495 |14.60Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1639 | 3.88Mb, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1953 | 9.19Mb, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_2448 |30.32Mb, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB_572 |10.14Mb, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2562 |31.02Mb, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2623 | 9.66Mb, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_2022 |20.55Mb, server: 107.172.86.81, port: 8888, type: vmess, uuid: e240e215-832b-4ca4-bf37-85b51b8395d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1929 |12.68Mb, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR_445 |10.84Mb, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: FR_444 |11.36Mb, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2345 |40.92Mb, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: US_2383 |15.02Mb, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR_522 | 7.82Mb, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_563 |14.25Mb, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1450 | 3.82Mb, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|16.49Mb 2", server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_476 | 9.14Mb, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2567 |16.69Mb, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_466 | 7.71Mb, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR_513 | 9.33Mb, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1307 | 5.03Mb, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1743 | 8.42Mb, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_2614 | 5.74Mb, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1741 | 2.88Mb, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2607 |10.16Mb, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_573 |10.58Mb, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2584 | 0.42Mb, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_392 | 5.80Mb, server: 120.232.182.190, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.182.190}, udp: true}
-  - {name: US_1633 | 1.94Mb, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1635 | 4.15Mb, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1653 |15.43Mb, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1381 |47.97Mb, server: 38.75.136.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_377 | 2.87Mb, server: 112.14.22.104, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: 112.14.22.104}, udp: true}
-  - {name: CN_391 | 3.67Mb, server: 120.232.182.190, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: 120.232.182.190}, udp: true}
-  - {name: CN_362 | 4.30Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: GB_580 |10.11Mb, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|17.84Mb", server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP_982 |21.82Mb, server: 172.105.254.242, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_431 | 9.14Mb, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1640 | 3.53Mb, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1740 | 3.53Mb, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1636 | 3.71Mb, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1641 | 1.83Mb, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2726 | 7.03Mb, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: DE_417 | 5.47Mb, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: ZZ_2737 | 3.83Mb, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2419 | 2.02Mb, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2817 | 5.68Mb, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_3343 |39.09Mb, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1650 | 6.08Mb, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2615 | 8.36Mb, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1116 | 3.84Mb, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2631 | 0.03Mb, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2735 | 8.95Mb, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_2610 | 5.62Mb, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_2621 | 6.08Mb, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2871 |13.69Mb, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1183 | 3.14Mb, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1565 | 3.99Mb, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN_350 | 8.51Mb, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_1478 | 7.30Mb, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_325, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_307, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: FR_410, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _56 |27.93Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2421, server: 134.195.196.144, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _58 |22.84Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2101, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR_392, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _63 |20.51Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_322, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: _64 |25.77Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: FR_412, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FR_424, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: FR_443, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2787 | 3.03Mb, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: CN_376, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: ZZ_2398, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇪🇪EE-🇯🇵JP_383, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR_413, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: FR_391, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_711, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: FR_438, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_285, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_🇨🇳CN-🇵🇭PH_294, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -608,148 +136,30 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -760,443 +170,89 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1212,148 +268,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_437 | 7.02Mb
-      - HK_617 |83.58Mb
-      - CN_442 |16.09Mb
-      - CN_472 | 5.15Mb
-      - JP_677 | 3.68Mb
-      - EE_423 |18.88Mb
-      - CN_395 | 8.47Mb
-      - CN_394 | 9.85Mb
-      - CN_369 | 7.18Mb
-      - EE_546 |20.61Mb
-      - US_2907 |27.34Mb
-      - CN_412 | 7.52Mb
-      - CN_380 | 1.92Mb
-      - _23 | 0.03Mb
-      - CN_386 | 4.18Mb
-      - CN_381 | 6.46Mb
-      - CN_379 | 5.90Mb
-      - CN_384 | 3.88Mb
-      - CN_389 | 4.72Mb
-      - Relay_🇨🇳CN-🇨🇦CA_281
-      - CN_376 |10.67Mb
-      - CN_385 | 5.05Mb
-      - CN_382 |11.94Mb
-      - CN_397 | 7.36Mb
-      - Relay_🇨🇳CN-🇩🇪DE_283
-      - US_2895 |46.29Mb
-      - CN_451 | 8.91Mb
-      - "|25.30Mb"
-      - CN_438 | 8.09Mb
-      - US_1810 |16.36Mb
-      - CN_390 | 4.70Mb
-      - US_1674 |48.57Mb
-      - FR_472 | 5.67Mb
-      - "|16.49Mb"
-      - FR_478 |10.44Mb
-      - US_1165 |49.64Mb
-      - US_1809 |16.76Mb
-      - US_1663 | 9.10Mb
-      - FR_473 | 4.33Mb
-      - ZZ_2849 |30.45Mb
-      - FR_525 | 8.96Mb
-      - FR_480 | 8.41Mb
-      - US_1637 | 3.26Mb
-      - US_1382 |13.98Mb
-      - US_2379 | 8.02Mb
-      - FR_560 | 7.96Mb
-      - FR_524 | 8.64Mb
-      - ZZ_2655 |31.59Mb
-      - ZZ_2850 |31.33Mb
-      - US_2911 |80.90Mb
-      - US_1657 |17.13Mb
-      - FR_465 | 8.13Mb
-      - "|11.37Mb"
-      - FR_479 | 8.67Mb
-      - ZZ_2844 |30.52Mb
-      - _22 |29.34Mb
-      - ZZ_2847 |30.67Mb
-      - ZZ_2859 |31.28Mb
-      - CN_398 | 2.00Mb
-      - US_1988 | 8.98Mb
-      - ZZ_2846 |30.61Mb
-      - CN_396 | 7.17Mb
-      - ZZ_2533 |27.24Mb
-      - ZZ_2561 |29.37Mb
-      - US_1656 |19.35Mb
-      - "|17.82Mb"
-      - ZZ_2758 | 6.15Mb
-      - FR_527 | 8.92Mb
-      - CN_480 | 4.03Mb
-      - US_1986 |15.02Mb
-      - ZZ_2848 |30.54Mb
-      - "|24.02Mb"
-      - US_1662 | 9.25Mb
-      - ZZ_2852 |31.05Mb
-      - GB_700 |48.00Mb
-      - FR_499 |19.30Mb
-      - ZZ_2534 |29.20Mb
-      - "|15.20Mb"
-      - FR_432 | 6.49Mb
-      - US_1987 |10.59Mb
-      - FR_495 |14.60Mb
-      - US_1639 | 3.88Mb
-      - US_1953 | 9.19Mb
-      - ZZ_2448 |30.32Mb
-      - GB_572 |10.14Mb
-      - ZZ_2562 |31.02Mb
-      - ZZ_2623 | 9.66Mb
-      - US_2022 |20.55Mb
-      - US_1929 |12.68Mb
-      - FR_445 |10.84Mb
-      - FR_444 |11.36Mb
-      - US_2345 |40.92Mb
-      - US_2383 |15.02Mb
-      - FR_522 | 7.82Mb
-      - FR_563 |14.25Mb
-      - US_1450 | 3.82Mb
-      - "|16.49Mb 2"
-      - FR_476 | 9.14Mb
-      - ZZ_2567 |16.69Mb
-      - FR_466 | 7.71Mb
-      - FR_513 | 9.33Mb
-      - US_1307 | 5.03Mb
-      - US_1743 | 8.42Mb
-      - ZZ_2614 | 5.74Mb
-      - US_1741 | 2.88Mb
-      - ZZ_2607 |10.16Mb
-      - GB_573 |10.58Mb
-      - ZZ_2584 | 0.42Mb
-      - CN_392 | 5.80Mb
-      - US_1633 | 1.94Mb
-      - US_1635 | 4.15Mb
-      - US_1653 |15.43Mb
-      - US_1381 |47.97Mb
-      - CN_377 | 2.87Mb
-      - CN_391 | 3.67Mb
-      - CN_362 | 4.30Mb
-      - GB_580 |10.11Mb
-      - "|17.84Mb"
-      - JP_982 |21.82Mb
-      - FR_431 | 9.14Mb
-      - US_1640 | 3.53Mb
-      - US_1740 | 3.53Mb
-      - US_1636 | 3.71Mb
-      - US_1641 | 1.83Mb
-      - ZZ_2726 | 7.03Mb
-      - DE_417 | 5.47Mb
-      - ZZ_2737 | 3.83Mb
-      - ZZ_2419 | 2.02Mb
-      - ZZ_2817 | 5.68Mb
-      - ZZ_3343 |39.09Mb
-      - US_1650 | 6.08Mb
-      - ZZ_2615 | 8.36Mb
-      - US_1116 | 3.84Mb
-      - ZZ_2631 | 0.03Mb
-      - ZZ_2735 | 8.95Mb
-      - ZZ_2610 | 5.62Mb
-      - ZZ_2621 | 6.08Mb
-      - ZZ_2871 |13.69Mb
-      - US_1183 | 3.14Mb
-      - US_1565 | 3.99Mb
-      - CN_350 | 8.51Mb
-      - US_1478 | 7.30Mb
+      - Relay_🇨🇳CN-🇬🇧GB_325
+      - Relay_🇨🇳CN-🇬🇧GB_307
+      - FR_410
+      - _56 |27.93Mb
+      - ZZ_2421
+      - _58 |22.84Mb
+      - Relay_🇺🇸US-🇺🇸US_2101
+      - FR_392
+      - _63 |20.51Mb
+      - Relay_🇨🇳CN-🇹🇼TW_322
+      - _64 |25.77Mb
+      - FR_412
+      - FR_424
+      - FR_443
+      - US_2787 | 3.03Mb
+      - CN_376
+      - ZZ_2398
+      - Relay_🇪🇪EE-🇯🇵JP_383
+      - FR_413
+      - FR_391
+      - JP_711
+      - FR_438
+      - Relay_🇨🇳CN-🇩🇪DE_285
+      - Relay_🇨🇳CN-🇵🇭PH_294
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
