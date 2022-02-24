@@ -5,228 +5,179 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"彩虹云网址:acg6_club_1","server":"www.google.com","port":10086,"type":"vmess","uuid":"2661b5f8-8062-34a5-9371-a44313a75b6b","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"剩余流量：100_00%250GB_2","server":"www.google.com","port":10086,"type":"vmess","uuid":"2661b5f8-8062-34a5-9371-a44313a75b6b","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"过期时间：2022-03-0219:30:50_3","server":"www.google.com","port":10086,"type":"vmess","uuid":"2661b5f8-8062-34a5-9371-a44313a75b6b","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"台湾_HINET_流媒体_标准1_4","server":"gzyd.potatofly.xyz","port":30014,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"台湾_HINET_流媒体_标准2_5","server":"gzyd.potatofly.xyz","port":30015,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"新加坡_HE_流媒体_标准1_6","server":"gzyd.potatofly.xyz","port":30026,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"新加坡_HE_流媒体_标准2_7","server":"gzyd.potatofly.xyz","port":30027,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"日本_NTT_标准1_8","server":"gzyd.potatofly.xyz","port":30020,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"日本_NTT_标准2_9","server":"gzyd.potatofly.xyz","port":30021,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"日本_软银_流媒体_标准1_10","server":"gzyd.potatofly.xyz","port":30008,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"日本_软银_流媒体_标准2_11","server":"gzyd.potatofly.xyz","port":30009,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"泰国_流媒体_标准1_12","server":"gzyd.potatofly.xyz","port":30022,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"泰国_流媒体_标准2_13","server":"gzyd.potatofly.xyz","port":30023,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"美国_HE_流媒体_标准1_14","server":"gzyd.potatofly.xyz","port":30010,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"美国_HE_流媒体_标准2_15","server":"gzyd.potatofly.xyz","port":30011,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"美国_INAP_流媒体_标准1_16","server":"gzyd.potatofly.xyz","port":30024,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"美国_INAP_流媒体_标准2_17","server":"gzyd.potatofly.xyz","port":30025,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"英国_GTT_TikTok_标准1_18","server":"gzyd.potatofly.xyz","port":30012,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"英国_GTT_TikTok_标准2_19","server":"gzyd.potatofly.xyz","port":30013,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_Azure_标准1_20","server":"gzyd.potatofly.xyz","port":30004,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_Azure_标准2_21","server":"gzyd.potatofly.xyz","port":30005,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_Azure_标准3_22","server":"gzyd.potatofly.xyz","port":30006,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_Azure_标准4_23","server":"gzyd.potatofly.xyz","port":30007,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_HGC_流媒体_标准1_24","server":"gzyd.potatofly.xyz","port":30018,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_HGC_流媒体_标准2_25","server":"gzyd.potatofly.xyz","port":30019,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_HKT_流媒体_标准1_26","server":"gzyd.potatofly.xyz","port":30016,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"香港_HKT_流媒体_标准2_27","server":"gzyd.potatofly.xyz","port":30017,"type":"vmess","uuid":"412c3449-8b00-3e0d-86f4-19d0dc9d07bb","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"KR韩国Seoul_①_高速奈飞首选CN2_1","server":"140.238.12.87","port":45565,"type":"vmess","uuid":"f4db779d-f5b5-485e-f09b-895f887e4ebe","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wubuzhidao","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Seoul_②_高速奈飞首选CN2_2","server":"146.56.178.159","port":45565,"type":"vmess","uuid":"c0fc979f-f90e-421e-8ba6-5f6c5f3183de","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/inedxcom","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Seoul_备用①_高速奈飞CN2_3","server":"140.238.12.87","port":35565,"type":"vmess","uuid":"cbd85a23-3bad-41c3-8b93-85e8bcb6ebe6","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Seoul_备用②_高速奈飞CN2_4","server":"146.56.178.159","port":35565,"type":"vmess","uuid":"c53f11c3-86b0-4087-ce45-6f12821575a5","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_①_高速奈飞次选_5","server":"146.56.106.189","port":45565,"type":"vmess","uuid":"a3bb80f1-d4a3-435e-e939-1e5cb3db50a5","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/blog"}}
+  - {"name":"KR韩国Chuncheon_②_高速奈飞次选_6","server":"138.2.125.231","port":45565,"type":"vmess","uuid":"2419a5ea-69ce-4566-c79b-d7a951a9f547","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/posttest"}}
+  - {"name":"KR韩国Chuncheon_③_高速奈飞次选_7","server":"152.67.202.177","port":45565,"type":"vmess","uuid":"2101db15-3c37-4ad5-d0e8-aa0bbf4225d5","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/blog","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Chuncheon_④_高速奈飞次选_8","server":"129.154.60.166","port":45565,"type":"vmess","uuid":"02f687e0-b7f7-44a9-fd6f-d2fd2b0bf5d5","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/blog","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Chuncheon_⑤_高速奈飞次选_9","server":"138.2.125.221","port":45565,"type":"vmess","uuid":"5c0a0d01-a074-4c67-e0df-6b25b9122c35","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/blog","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Chuncheon_⑥_高速奈飞次选_10","server":"150.230.252.80","port":45565,"type":"vmess","uuid":"c18ccae1-572b-4516-d120-22154ea8db06","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/blog","headers":{"host":"http://kr.china-embassy.org"}}}
+  - {"name":"KR韩国Chuncheon_备用①_高速奈飞_11","server":"146.56.106.189","port":35565,"type":"vmess","uuid":"a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_备用②_高速奈飞_12","server":"138.2.125.231","port":35565,"type":"vmess","uuid":"7f829896-d307-4e3d-ae77-e9bcff947ce2","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_备用③_高速奈飞_13","server":"152.67.202.177","port":35565,"type":"vmess","uuid":"45d10cdf-3e5e-480d-e51e-c0a6e69677c7","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_备用④_高速奈飞_14","server":"129.154.60.166","port":35565,"type":"vmess","uuid":"2eb8e8a4-c088-4899-f0ed-ea4916b0be88","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_备用⑤_高速奈飞_15","server":"138.2.125.221","port":35565,"type":"vmess","uuid":"f36521b5-5309-441e-cf4f-52ff0023acea","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"KR韩国Chuncheon_备用⑥_高速奈飞_16","server":"150.230.252.80","port":35565,"type":"vmess","uuid":"badacc06-e5df-40de-b505-c59d68d105fc","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"JP日本Tokyo_①_高速_17","server":"158.101.156.111","port":45565,"type":"vmess","uuid":"41060c54-4061-4357-fef2-67d088a46505","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/comindex"}}
+  - {"name":"JP日本Tokyo_②_高速_18","server":"155.248.183.96","port":45565,"type":"vmess","uuid":"44c36ab6-f82b-4a59-97f0-331066ea3fe8","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index"}}
+  - {"name":"JP日本Tokyo_备用①_高速_19","server":"158.101.156.111","port":35565,"type":"vmess","uuid":"4a3f92e5-ba25-4fa9-b555-1d297f405b40","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"JP日本Tokyo_备用②_高速_20","server":"155.248.183.96","port":35565,"type":"vmess","uuid":"692f603f-7b7c-4646-d406-4affc49584e7","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -249,33 +200,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 彩虹云网址:acg6_club_1
-      - 剩余流量：100_00%250GB_2
-      - 过期时间：2022-03-0219:30:50_3
-      - 台湾_HINET_流媒体_标准1_4
-      - 台湾_HINET_流媒体_标准2_5
-      - 新加坡_HE_流媒体_标准1_6
-      - 新加坡_HE_流媒体_标准2_7
-      - 日本_NTT_标准1_8
-      - 日本_NTT_标准2_9
-      - 日本_软银_流媒体_标准1_10
-      - 日本_软银_流媒体_标准2_11
-      - 泰国_流媒体_标准1_12
-      - 泰国_流媒体_标准2_13
-      - 美国_HE_流媒体_标准1_14
-      - 美国_HE_流媒体_标准2_15
-      - 美国_INAP_流媒体_标准1_16
-      - 美国_INAP_流媒体_标准2_17
-      - 英国_GTT_TikTok_标准1_18
-      - 英国_GTT_TikTok_标准2_19
-      - 香港_Azure_标准1_20
-      - 香港_Azure_标准2_21
-      - 香港_Azure_标准3_22
-      - 香港_Azure_标准4_23
-      - 香港_HGC_流媒体_标准1_24
-      - 香港_HGC_流媒体_标准2_25
-      - 香港_HKT_流媒体_标准1_26
-      - 香港_HKT_流媒体_标准2_27
+      - KR韩国Seoul_①_高速奈飞首选CN2_1
+      - KR韩国Seoul_②_高速奈飞首选CN2_2
+      - KR韩国Seoul_备用①_高速奈飞CN2_3
+      - KR韩国Seoul_备用②_高速奈飞CN2_4
+      - KR韩国Chuncheon_①_高速奈飞次选_5
+      - KR韩国Chuncheon_②_高速奈飞次选_6
+      - KR韩国Chuncheon_③_高速奈飞次选_7
+      - KR韩国Chuncheon_④_高速奈飞次选_8
+      - KR韩国Chuncheon_⑤_高速奈飞次选_9
+      - KR韩国Chuncheon_⑥_高速奈飞次选_10
+      - KR韩国Chuncheon_备用①_高速奈飞_11
+      - KR韩国Chuncheon_备用②_高速奈飞_12
+      - KR韩国Chuncheon_备用③_高速奈飞_13
+      - KR韩国Chuncheon_备用④_高速奈飞_14
+      - KR韩国Chuncheon_备用⑤_高速奈飞_15
+      - KR韩国Chuncheon_备用⑥_高速奈飞_16
+      - JP日本Tokyo_①_高速_17
+      - JP日本Tokyo_②_高速_18
+      - JP日本Tokyo_备用①_高速_19
+      - JP日本Tokyo_备用②_高速_20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
