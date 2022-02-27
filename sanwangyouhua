@@ -5,214 +5,221 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"官网：speedbos_ml_1","server":"13.212.254.97","port":2565,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"28日本∞中转_2","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"27日本∞中转_3","server":"os2-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"30日本∞中转_4","server":"os2-7.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"29日本∞中转_5","server":"os2-6.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"【新加坡2】公益地址speedbos_ml_6","server":"gzcm1.bilibili.best","port":35106,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"日本_7","server":"20.89.239.109","port":4256,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"【新加坡】公益地址speedbos_ml_8","server":"gzcm1.bilibili.best","port":57137,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"【美国2】公益地址speedbos_ml_9","server":"zjcu1.bilibili.best","port":42190,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jcnf"}}
-  - {"name":"24日本∞中转_10","server":"jp10.holiganfan.com","port":10088,"type":"trojan","password":"8ce38f17-b2be-453a-8d25-deec1a0aabba"}
-  - {"name":"【韩国】公益地址speedbos_ml_11","server":"gzcm1.bilibili.best","port":10049,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"31日本∞中转_12","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"【日本】公益地址speedbos_ml_13","server":"gzcm1.bilibili.best","port":50878,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"【美国】公益地址speedbos_ml_14","server":"zjcu1.bilibili.best","port":10883,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jcnf"}}
-  - {"name":"【日本2】公益地址speedbos_ml_15","server":"gzcm1.bilibili.best","port":12875,"type":"vmess","uuid":"0d0c892d-4e83-4a49-9a9b-5b1df1b16a3c","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"热播频道+t_me/TBBRB_16","server":"gzbgpss.8n4t.cn","port":20115,"type":"trojan","password":"43a29215-a4c6-3b8a-9697-5242c8f09213"}
-  - {"name":"26日本∞中转_17","server":"os2-2.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"36日本∞直连_18","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"25日本∞中转_19","server":"jp19.holiganfan.com","port":10088,"type":"trojan","password":"8ce38f17-b2be-453a-8d25-deec1a0aabba"}
-  - {"name":"52法国∞直连_20","server":"149.202.82.172","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"55法国∞直连_21","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"56法国∞直连_22","server":"149.202.82.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"57法国∞直连_23","server":"149.202.82.172","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"54法国∞直连_24","server":"149.202.82.172","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"59法国∞直连_25","server":"149.202.82.172","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇯🇵JP_00+atWangCai_1","server":"45.66.134.176","port":800,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_01+atWangCai_1","server":"45.66.134.176","port":801,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_02+atWangCai_1","server":"45.66.134.176","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_03+atWangCai_1","server":"45.66.134.176","port":803,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_04+atWangCai_1","server":"45.66.134.176","port":804,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_05+atWangCai_1","server":"45.66.134.176","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_06+atWangCai_1","server":"45.66.134.176","port":806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_07+atWangCai_1","server":"45.66.134.176","port":807,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_08+atWangCai_1","server":"45.66.134.176","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_09+atWangCai_1","server":"45.66.134.176","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_10+atWangCai_1","server":"45.66.134.176","port":810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_11+atWangCai_1","server":"45.66.134.176","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_12+atWangCai_1","server":"45.66.134.176","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_00+atWangCai_1","server":"185.160.24.33","port":800,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_01+atWangCai_1","server":"185.160.24.33","port":801,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_02+atWangCai_1","server":"185.160.24.33","port":802,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_03+atWangCai_1","server":"185.160.24.33","port":803,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_04+atWangCai_1","server":"185.160.24.33","port":804,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_05+atWangCai_1","server":"185.160.24.33","port":805,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_06+atWangCai_1","server":"185.160.24.33","port":806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_07+atWangCai_1","server":"185.160.24.33","port":807,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_08+atWangCai_1","server":"185.160.24.33","port":808,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_09+atWangCai_1","server":"185.160.24.33","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_10+atWangCai_1","server":"185.160.24.33","port":810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_11+atWangCai_1","server":"185.160.24.33","port":811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵JP_12+atWangCai_1","server":"185.160.24.33","port":812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +242,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 官网：speedbos_ml_1
-      - 28日本∞中转_2
-      - 27日本∞中转_3
-      - 30日本∞中转_4
-      - 29日本∞中转_5
-      - 【新加坡2】公益地址speedbos_ml_6
-      - 日本_7
-      - 【新加坡】公益地址speedbos_ml_8
-      - 【美国2】公益地址speedbos_ml_9
-      - 24日本∞中转_10
-      - 【韩国】公益地址speedbos_ml_11
-      - 31日本∞中转_12
-      - 【日本】公益地址speedbos_ml_13
-      - 【美国】公益地址speedbos_ml_14
-      - 【日本2】公益地址speedbos_ml_15
-      - 热播频道+t_me/TBBRB_16
-      - 26日本∞中转_17
-      - 36日本∞直连_18
-      - 25日本∞中转_19
-      - 52法国∞直连_20
-      - 55法国∞直连_21
-      - 56法国∞直连_22
-      - 57法国∞直连_23
-      - 54法国∞直连_24
-      - 59法国∞直连_25
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
+      - 🇯🇵JP_00+atWangCai_1
+      - 🇯🇵JP_01+atWangCai_1
+      - 🇯🇵JP_02+atWangCai_1
+      - 🇯🇵JP_03+atWangCai_1
+      - 🇯🇵JP_04+atWangCai_1
+      - 🇯🇵JP_05+atWangCai_1
+      - 🇯🇵JP_06+atWangCai_1
+      - 🇯🇵JP_07+atWangCai_1
+      - 🇯🇵JP_08+atWangCai_1
+      - 🇯🇵JP_09+atWangCai_1
+      - 🇯🇵JP_10+atWangCai_1
+      - 🇯🇵JP_11+atWangCai_1
+      - 🇯🇵JP_12+atWangCai_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
