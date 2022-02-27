@@ -5,191 +5,891 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳 CN-🏁ZZ_289, server: fs.evertheless.art, port: 54621, type: trojan, password: 8913bd4d-d7e0-41bd-9ec0-de017adf7a49, sni: fs.evertheless.art, skip-cert-verify: true, udp: true}
-  - {name: US_1178, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_313, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_310, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇹IT_358, server: relaypro.procncon.xyz, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_366, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_318, server: usastandard2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_340, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_344, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: US_1365, server: 206.119.125.70, port: 8282, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: FR_906, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_309, server: relaypro.procncon.xyz, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: FR_893, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_328, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_308, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_331, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: FR_904, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_306, server: relaypro.procncon.xyz, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_320, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_315, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: US_1366, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1368, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_327, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: SG_1235, server: 32.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 32.earths.team, skip-cert-verify: true, udp: true}
-  - {name: FR_896, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1196, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_374, server: relaypro.procncon.xyz, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: FR_509, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_661, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: FR_415, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_304, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: FR_884, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR_865, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_885, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1152, server: 206.189.184.191, port: 8288, type: vmess, uuid: 988c93ba-9e5a-4014-ef0c-66d1bb030dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_2426, server: 206.189.184.191, port: 8288, type: vmess, uuid: 988c93ba-9e5a-4014-ef0c-66d1bb030dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_889, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_352, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_324, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: FR_876, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CN_712, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_341, server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_-🇨🇳CN_21, server: sg08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_135, server: sg02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_161, server: hkhe04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_60, server: hgc06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_30, server: hkhe06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_83, server: sg13.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_26, server: hgc01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_121, server: ir03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_155, server: hgc02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_153, server: sg12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_154, server: hkhe02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_47, server: hkhe01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_14, server: ir04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_18, server: hgc07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_19, server: hgc04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_151, server: hkhe09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇺🇸US_812, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇳CN_163, server: sg07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_53, server: sg01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_52, server: fr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇺🇸US_811, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇳CN_22, server: hgc08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_61, server: ir01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_843, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇳CN_25, server: ir05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_809, server: az1.nodrop.bike, port: 10131, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: az1.nodrop.bike}, udp: true}
+  - {name: Relay_-🇨🇳CN_169, server: hgc03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_05, server: hgc05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_93, server: sg04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_104, server: sg15.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_801, server: microsoft.uwpapp.chacha20.xyz, port: 443, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uwpstore, ws-headers: {Host: microsoft.uwpapp.chacha20.xyz}, udp: true}
+  - {name: Relay_-🇨🇳CN_108, server: sg20.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_08, server: fr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_146, server: hkhe07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_148, server: sg05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_113, server: sg17.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_157, server: sg03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_46, server: fr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_75, server: sg11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_02, server: ir02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_158, server: sg19.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: US_1177, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇳CN_70, server: sg06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇳CN_33, server: sg16.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1340, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: CN_729, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v1.mumi.bid}, udp: true}
+  - {name: Relay_-🇨🇳CN_92, server: sg14.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇦CA_178, server: az.transfer.mugocloud.top, port: 29456, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_807, server: microsoft.data.chacha20.xyz, port: 443, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /download, ws-headers: {Host: microsoft.data.chacha20.xyz}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇰🇷KR_481, server: gy.cm.01.211129.xyz, port: 42212, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: gy.cm.01.211129.xyz}, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1327, server: update.office.chacha20.xyz, port: 443, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /version, ws-headers: {Host: update.office.chacha20.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_526, server: 139.226.50.243, port: 6666, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵 JP-🇯🇵JP_948, server: 29.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 29.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵 JP-🇯🇵JP_947, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇯🇵JP_476, server: cs.cu.01.211129.xyz, port: 52312, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: cs.cu.01.211129.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_532, server: fs.evertheless.art, port: 54621, type: trojan, password: 8913bd4d-d7e0-41bd-9ec0-de017adf7a49, sni: fs.evertheless.art, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇰🇷KR_1334, server: azhk520.greenyun.tk, port: 10009, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_🇯🇵 JP-🇯🇵JP_944, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_01, server: tw10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_858, server: hk-az-5.licom.ga, port: 443, type: trojan, password: 44552341-0612-40f5-8c39-c107e07d5fb4, sni: hk-az-5.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_144, server: twgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_171, server: tw03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_143, server: twct01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_167, server: tw06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_168, server: tw01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_102, server: jp03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_110, server: twct05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_48, server: tw02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_40, server: tw07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_94, server: jp02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_100, server: jpsb01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_145, server: twgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_166, server: twgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_95, server: jp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_174, server: jpsb03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_101, server: jpsb12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_150, server: twgame03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇺🇸US_805, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 59572, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
+  - {name: Relay_-🇹🇼TW_43, server: twgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_34, server: tw05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_85, server: tw04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_160, server: twct09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_98, server: twct07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_28, server: twct02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_96, server: hr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸 US-🇯🇵JP_1329, server: azhk520.greenyun.tk, port: 10007, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_🇰🇷 KR-🇰🇷KR_1051, server: KR.nodrop.bike, port: 32123, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: KR.nodrop.bike}, udp: true}
+  - {name: Relay_-🇳🇱NL_20, server: jp06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_152, server: twgame06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_165, server: twgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_97, server: jp05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_164, server: twgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸 US-🇲🇾MY_1326, server: azhk520.greenyun.tk, port: 10002, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_-🇹🇼TW_39, server: twct06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_49, server: hr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇰🇷 KR-🇯🇵JP_1052, server: KR2.nodrop.bike, port: 20005, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: KR2.nodrop.bike}, udp: true}
+  - {name: Relay_🇺🇸 US-🇹🇼TW_1320, server: azhk520.greenyun.tk, port: 10001, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_-🇹🇼TW_136, server: tw08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_115, server: jpsb04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_58, server: jpsb11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇳🇱NL_87, server: jp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2972, server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇲🇾MY_480, server: cs.cu.02.211129.xyz, port: 10690, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: cs.cu.02.211129.xyz}, udp: true}
+  - {name: Relay_-🇹🇼TW_29, server: twct03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_813, server: 25.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 25.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇰🇷 KR-🇸🇬SG_1050, server: KR2.nodrop.bike, port: 20000, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: KR2.nodrop.bike}, udp: true}
+  - {name: Relay_-🇹🇼TW_78, server: tw09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_80, server: jpsb09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_118, server: hr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_59, server: 28.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_120, server: in01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_138, server: 30.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_36, server: twct08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_117, server: twgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_07, server: 23.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇹🇼TW_88, server: twgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇯🇵 JP-🇯🇵JP_946, server: 29.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 29.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇸🇬SG_1324, server: azhk520.greenyun.tk, port: 10008, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_-🇮🇳IN_126, server: in05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_170, server: 24.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_128, server: in02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_79, server: hr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_147, server: 26.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_149, server: jpsb06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_45, server: jpsb08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇯🇵JP_73, server: 22.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_111, server: in03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_127, server: in04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_125, server: in07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_137, server: in09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_91, server: hr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_130, server: in08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇮🇳IN_131, server: in06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸 US-🇷🇺RU_1338, server: 20.24.85.234, port: 8001, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_06, server: twct04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🏁ZZ_55, server: hr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇺🇸US_803, server: 104.208.90.84, port: 41532, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.208.90.84}, udp: true}
+  - {name: Relay_-🇩🇪DE_176, server: az.transfer.mugocloud.top, port: 22212, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇦CA_177, server: az.transfer.mugocloud.top, port: 27356, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1323, server: azhk520.greenyun.tk, port: 10005, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_-🇯🇵JP_103, server: 21.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_814, server: 25.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 25.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1328, server: azhk520.greenyun.tk, port: 10004, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1330, server: v2.kr4.hgwc.xyz, port: 10006, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.kr4.hgwc.xyz}, udp: true}
+  - {name: Relay_🇺🇸 US-🇹🇷TR_1315, server: azhk520.greenyun.tk, port: 10003, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: Relay_-🇺🇸US_181, server: cs.transfer.mugocloud.top, port: 21412, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_525, server: 183.232.163.19, port: 18888, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_849, server: hk-az-5.licom.ga, port: 80, type: vmess, uuid: 44552341-0612-40f5-8c39-c107e07d5fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-az-5.licom.ga}, udp: true}
+  - {name: US_2401, server: 206.119.125.70, port: 8282, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_-🇹🇼TW_90, server: twct11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_112, server: us02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_140, server: us05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇨🇳 CN-🇺🇸US_475, server: us.nodrop.bike, port: 47891, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: us.nodrop.bike}, udp: true}
+  - {name: Relay_-🇸🇬SG_185, server: az.transfer.mugocloud.top, port: 25998, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇺🇸US_187, server: az.transfer.mugocloud.top, port: 28131, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇨🇦CA_189, server: az.transfer.mugocloud.top, port: 27346, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇩🇪DE_186, server: cs.transfer.mugocloud.top, port: 21112, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰 HK-🇺🇸US_810, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 65406, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
+  - {name: Relay_-🇫🇷FR_03, server: uk06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇷🇴RO_180, server: az.transfer.mugocloud.top, port: 25418, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_183, server: cs.transfer.mugocloud.top, port: 23156, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇰🇷KR_09, server: krgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_56, server: kr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_16, server: kr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_41, server: kr09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_172, server: krgame06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_65, server: krgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_38, server: kr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇦🇺AU_139, server: au04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_179, server: az.transfer.mugocloud.top, port: 26316, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇰🇷KR_71, server: krgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_81, server: krgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_89, server: kr06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_142, server: kr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_24, server: krgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: FR_413, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_-🇫🇷FR_10, server: uk03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_12, server: krgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_105, server: krgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_109, server: kr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_31, server: us03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇬🇧GB_182, server: az.transfer.mugocloud.top, port: 22332, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇺🇸US_188, server: az.transfer.mugocloud.top, port: 26336, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇰🇷KR_134, server: krgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_132, server: us01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇦🇺AU_141, server: au02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_190, server: az.transfer.mugocloud.top, port: 23412, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼 TW-🇹🇼TW_1308, server: tw1.nodrop.bike, port: 80, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}, udp: true}
+  - {name: Relay_-🇰🇷KR_11, server: kr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇬🇧GB_184, server: cs.transfer.mugocloud.top, port: 22112, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇫🇷FR_23, server: uk01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_15, server: us08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇰🇷KR_133, server: kr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: US_2463, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: Relay_-🇫🇷FR_159, server: uk04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: US_2466, server: 206.189.184.191, port: 8288, type: vmess, uuid: 988c93ba-9e5a-4014-ef0c-66d1bb030dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_857, server: 104.208.85.120, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇰🇷KR_68, server: kr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇦CA_123, server: ca02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇸🇬SG_116, server: sgp11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇳🇱 NL-🇳🇱NL_1066, server: th.wozcjd.xyz, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: Relay_-🇸🇬SG_107, server: sgp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇦CA_119, server: ca03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_32, server: us06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇸🇬SG_86, server: sgp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: US_1554, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_-🇯🇵JP_106, server: 25.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: CN_702, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_-🇸🇬SG_82, server: sgp12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇸🇬SG_129, server: sgp05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇦CA_44, server: ca01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇨🇦CA_114, server: ca05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_-🇺🇸US_99, server: us10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_1341, server: 7.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇸🇬SG_35, server: sgp06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Relay_🇬🇧 GB-🇬🇧GB_728, server: eu1.nodrop.bike, port: 8885, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: eu1.nodrop.bike}, udp: true}
+  - {name: CN_667, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,48 +908,223 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -260,143 +1135,668 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,48 +1812,223 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳 CN-🏁ZZ_289
-      - US_1178
-      - Relay_🇨🇳CN-🇭🇰HK_313
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - Relay_🇨🇳CN-🇮🇹IT_358
-      - Relay_🇨🇳CN-🇺🇸US_366
-      - Relay_🇨🇳CN-🇺🇸US_318
-      - Relay_🇨🇳CN-🇭🇰HK_340
-      - CN_344
-      - US_1365
-      - FR_906
-      - Relay_🇨🇳CN-🇬🇧GB_309
-      - FR_893
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇺🇸US_308
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - FR_904
-      - Relay_🇨🇳CN-🇺🇸US_306
-      - CN_320
-      - Relay_🇨🇳CN-🇭🇰HK_315
-      - US_1366
-      - US_1368
-      - Relay_🇨🇳CN-🇭🇰HK_327
-      - SG_1235
-      - FR_896
-      - US_1196
-      - Relay_🇨🇳CN-🇬🇧GB_374
-      - FR_509
-      - CN_661
-      - FR_415
-      - Relay_🇨🇳CN-🇷🇺RU_304
-      - FR_884
-      - FR_865
-      - FR_885
-      - US_1152
-      - US_2426
-      - FR_889
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_324
-      - FR_876
-      - CN_712
-      - Relay_🇨🇳CN-🇺🇸US_341
+      - Relay_-🇨🇳CN_21
+      - Relay_-🇨🇳CN_135
+      - Relay_-🇨🇳CN_161
+      - Relay_-🇨🇳CN_60
+      - Relay_-🇨🇳CN_30
+      - Relay_-🇨🇳CN_83
+      - Relay_-🇨🇳CN_26
+      - Relay_-🇨🇳CN_121
+      - Relay_-🇨🇳CN_155
+      - Relay_-🇨🇳CN_153
+      - Relay_-🇨🇳CN_154
+      - Relay_-🇨🇳CN_47
+      - Relay_-🇨🇳CN_14
+      - Relay_-🇨🇳CN_18
+      - Relay_-🇨🇳CN_19
+      - Relay_-🇨🇳CN_151
+      - Relay_🇭🇰 HK-🇺🇸US_812
+      - Relay_-🇨🇳CN_163
+      - Relay_-🇨🇳CN_53
+      - Relay_-🇨🇳CN_52
+      - Relay_🇭🇰 HK-🇺🇸US_811
+      - Relay_-🇨🇳CN_22
+      - Relay_-🇨🇳CN_61
+      - Relay_🇭🇰HK-🇭🇰HK_843
+      - Relay_-🇨🇳CN_25
+      - Relay_🇭🇰 HK-🇭🇰HK_809
+      - Relay_-🇨🇳CN_169
+      - Relay_-🇨🇳CN_05
+      - Relay_-🇨🇳CN_93
+      - Relay_-🇨🇳CN_104
+      - Relay_🇭🇰 HK-🇭🇰HK_801
+      - Relay_-🇨🇳CN_108
+      - Relay_-🇨🇳CN_08
+      - Relay_-🇨🇳CN_146
+      - Relay_-🇨🇳CN_148
+      - Relay_-🇨🇳CN_113
+      - Relay_-🇨🇳CN_157
+      - Relay_-🇨🇳CN_46
+      - Relay_-🇨🇳CN_75
+      - Relay_-🇨🇳CN_02
+      - Relay_-🇨🇳CN_158
+      - US_1177
+      - Relay_-🇨🇳CN_70
+      - Relay_-🇨🇳CN_33
+      - Relay_🇺🇸 US-🇺🇸US_1340
+      - CN_729
+      - Relay_-🇨🇳CN_92
+      - Relay_-🇨🇦CA_178
+      - Relay_🇭🇰 HK-🇭🇰HK_807
+      - Relay_🇨🇳 CN-🇰🇷KR_481
+      - Relay_🇺🇸 US-🇺🇸US_1327
+      - Relay_🇨🇳CN-🇭🇰HK_526
+      - Relay_🇯🇵 JP-🇯🇵JP_948
+      - Relay_🇯🇵 JP-🇯🇵JP_947
+      - Relay_🇨🇳 CN-🇯🇵JP_476
+      - Relay_🇨🇳CN-🏁ZZ_532
+      - Relay_🇺🇸 US-🇰🇷KR_1334
+      - Relay_🇯🇵 JP-🇯🇵JP_944
+      - Relay_-🇹🇼TW_01
+      - Relay_🇭🇰HK-🇭🇰HK_858
+      - Relay_-🇹🇼TW_144
+      - Relay_-🇹🇼TW_171
+      - Relay_-🇹🇼TW_143
+      - Relay_-🇹🇼TW_167
+      - Relay_-🇹🇼TW_168
+      - Relay_-🏁ZZ_102
+      - Relay_-🇹🇼TW_110
+      - Relay_-🇹🇼TW_48
+      - Relay_-🇹🇼TW_40
+      - Relay_-🇳🇱NL_94
+      - Relay_-🏁ZZ_100
+      - Relay_-🇹🇼TW_145
+      - Relay_-🇹🇼TW_166
+      - Relay_-🏁ZZ_95
+      - Relay_-🇳🇱NL_174
+      - Relay_-🏁ZZ_101
+      - Relay_-🇹🇼TW_150
+      - Relay_🇭🇰 HK-🇺🇸US_805
+      - Relay_-🇹🇼TW_43
+      - Relay_-🇹🇼TW_34
+      - Relay_-🇹🇼TW_85
+      - Relay_-🇹🇼TW_160
+      - Relay_-🇹🇼TW_98
+      - Relay_-🇹🇼TW_28
+      - Relay_-🇳🇱NL_96
+      - Relay_🇺🇸 US-🇯🇵JP_1329
+      - Relay_🇰🇷 KR-🇰🇷KR_1051
+      - Relay_-🇳🇱NL_20
+      - Relay_-🇹🇼TW_152
+      - Relay_-🇹🇼TW_165
+      - Relay_-🇳🇱NL_97
+      - Relay_-🇹🇼TW_164
+      - Relay_🇺🇸 US-🇲🇾MY_1326
+      - Relay_-🇹🇼TW_39
+      - Relay_-🇳🇱NL_49
+      - Relay_🇰🇷 KR-🇯🇵JP_1052
+      - Relay_🇺🇸 US-🇹🇼TW_1320
+      - Relay_-🇹🇼TW_136
+      - Relay_-🇳🇱NL_115
+      - Relay_-🇯🇵JP_58
+      - Relay_-🇳🇱NL_87
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - Relay_🇨🇳 CN-🇲🇾MY_480
+      - Relay_-🇹🇼TW_29
+      - Relay_🇭🇰 HK-🇭🇰HK_813
+      - Relay_🇰🇷 KR-🇸🇬SG_1050
+      - Relay_-🇹🇼TW_78
+      - Relay_-🇯🇵JP_80
+      - Relay_-🇯🇵JP_118
+      - Relay_-🇯🇵JP_59
+      - Relay_-🇮🇳IN_120
+      - Relay_-🇯🇵JP_138
+      - Relay_-🇹🇼TW_36
+      - Relay_-🇹🇼TW_117
+      - Relay_-🇯🇵JP_07
+      - Relay_-🇹🇼TW_88
+      - Relay_🇯🇵 JP-🇯🇵JP_946
+      - Relay_🇺🇸 US-🇸🇬SG_1324
+      - Relay_-🇮🇳IN_126
+      - Relay_-🇯🇵JP_170
+      - Relay_-🇮🇳IN_128
+      - Relay_-🏁ZZ_79
+      - Relay_-🇯🇵JP_147
+      - Relay_-🇯🇵JP_149
+      - Relay_-🏁ZZ_45
+      - Relay_-🇯🇵JP_73
+      - Relay_-🇮🇳IN_111
+      - Relay_-🇮🇳IN_127
+      - Relay_-🇮🇳IN_125
+      - Relay_-🇮🇳IN_137
+      - Relay_-🏁ZZ_91
+      - Relay_-🇮🇳IN_130
+      - Relay_-🇮🇳IN_131
+      - Relay_🇺🇸 US-🇷🇺RU_1338
+      - Relay_-🇹🇼TW_06
+      - Relay_-🏁ZZ_55
+      - Relay_🇭🇰 HK-🇺🇸US_803
+      - Relay_-🇩🇪DE_176
+      - Relay_-🇨🇦CA_177
+      - Relay_🇺🇸 US-🇺🇸US_1323
+      - Relay_-🇯🇵JP_103
+      - Relay_🇭🇰 HK-🇭🇰HK_814
+      - Relay_🇺🇸 US-🇺🇸US_1328
+      - Relay_🇺🇸 US-🇺🇸US_1330
+      - Relay_🇺🇸 US-🇹🇷TR_1315
+      - Relay_-🇺🇸US_181
+      - Relay_🇨🇳CN-🇭🇰HK_525
+      - Relay_🇭🇰HK-🇭🇰HK_849
+      - US_2401
+      - Relay_-🇹🇼TW_90
+      - Relay_-🇺🇸US_112
+      - Relay_-🇺🇸US_140
+      - Relay_🇨🇳 CN-🇺🇸US_475
+      - Relay_-🇸🇬SG_185
+      - Relay_-🇺🇸US_187
+      - Relay_-🇨🇦CA_189
+      - Relay_-🇩🇪DE_186
+      - Relay_🇭🇰 HK-🇺🇸US_810
+      - Relay_-🇫🇷FR_03
+      - Relay_-🇷🇴RO_180
+      - Relay_-🇹🇼TW_183
+      - Relay_-🇰🇷KR_09
+      - Relay_-🇰🇷KR_56
+      - Relay_-🇰🇷KR_16
+      - Relay_-🇰🇷KR_41
+      - Relay_-🇰🇷KR_172
+      - Relay_-🇰🇷KR_65
+      - Relay_-🇰🇷KR_38
+      - Relay_-🇦🇺AU_139
+      - Relay_-🇺🇸US_179
+      - Relay_-🇰🇷KR_71
+      - Relay_-🇰🇷KR_81
+      - Relay_-🇰🇷KR_89
+      - Relay_-🇰🇷KR_142
+      - Relay_-🇰🇷KR_24
+      - FR_413
+      - Relay_-🇫🇷FR_10
+      - Relay_-🇰🇷KR_12
+      - Relay_-🇰🇷KR_105
+      - Relay_-🇰🇷KR_109
+      - Relay_-🇺🇸US_31
+      - Relay_-🇬🇧GB_182
+      - Relay_-🇺🇸US_188
+      - Relay_-🇰🇷KR_134
+      - Relay_-🇺🇸US_132
+      - Relay_-🇦🇺AU_141
+      - Relay_-🇺🇸US_190
+      - Relay_🇹🇼 TW-🇹🇼TW_1308
+      - Relay_-🇰🇷KR_11
+      - Relay_-🇬🇧GB_184
+      - Relay_-🇫🇷FR_23
+      - Relay_-🇺🇸US_15
+      - Relay_-🇰🇷KR_133
+      - US_2463
+      - Relay_-🇫🇷FR_159
+      - US_2466
+      - HK_857
+      - Relay_-🇰🇷KR_68
+      - Relay_-🇨🇦CA_123
+      - Relay_-🇸🇬SG_116
+      - Relay_🇳🇱 NL-🇳🇱NL_1066
+      - Relay_-🇸🇬SG_107
+      - Relay_-🇨🇦CA_119
+      - Relay_-🇺🇸US_32
+      - Relay_-🇸🇬SG_86
+      - US_1554
+      - Relay_-🇯🇵JP_106
+      - CN_702
+      - Relay_-🇸🇬SG_82
+      - Relay_-🇸🇬SG_129
+      - Relay_-🇨🇦CA_44
+      - Relay_-🇨🇦CA_114
+      - Relay_-🇺🇸US_99
+      - Relay_🇺🇸 US-🇺🇸US_1341
+      - Relay_-🇸🇬SG_35
+      - Relay_🇬🇧 GB-🇬🇧GB_728
+      - CN_667
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
