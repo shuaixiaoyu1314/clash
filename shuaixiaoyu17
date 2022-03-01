@@ -5,491 +5,2387 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_727, server: 40.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】HK_1459, server: 42.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 42.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】US_3548, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_2345, server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_2343, server: 16.162.160.70, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: CN_412, server: fs.evertheless.art, port: 54621, type: trojan, password: 8913bd4d-d7e0-41bd-9ec0-de017adf7a49, sni: fs.evertheless.art, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】US_3501, server: update.office.chacha20.xyz, port: 443, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /version, ws-headers: {Host: update.office.chacha20.xyz}, udp: true}
-  - {name: 【426节点池】US_3523, server: onedrive.chacha20.xyz, port: 443, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onedrive, ws-headers: {Host: onedrive.chacha20.xyz}, udp: true}
-  - {name: 【426节点池】HK_1460, server: hk-az-5.licom.ga, port: 443, type: trojan, password: 44552341-0612-40f5-8c39-c107e07d5fb4, sni: hk-az-5.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_389, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_387, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_724, server: 40.earths.team, port: 443, type: trojan, password: 73fddb66-9a3a-4a51-a043-7127ba32d1da, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_2357, server: 20.24.85.234, port: 8001, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_375, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】HK_1462, server: 42.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 42.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】CN_339, server: china-gzyd-1.forwardserver.xyz, port: 36018, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
-  - {name: US_2348, server: 20.24.85.234, port: 8002, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】HK_1412, server: china-f4s-az-hk.898868.xyz, port: 38483, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}, udp: true}
-  - {name: US_1872, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2022, server: 38.114.114.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 【426节点池】HK_1404, server: gy.wozcjd.xyz, port: 21313, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: "|51.79Mb", server: 167.88.62.104, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|50.40Mb", server: 167.88.62.104, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 【426节点池】HK_1402, server: gy.wozcjd.xyz, port: 21315, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: US_1501, server: 142.202.48.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2024, server: 38.114.114.19, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2416, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 【426节点池】HK_1440, server: china-f4s-az-hk.898868.xyz, port: 65406, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}, udp: true}
-  - {name: 【426节点池】US_2328, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1467, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1728, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|98.32Mb", server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1413, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2028, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_2556, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1751, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1857, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|71.11Mb", server: 167.88.62.104, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1766, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1917, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|76.49Mb", server: 167.88.62.104, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|124.56Mb", server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|71.52Mb", server: 167.88.62.104, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1373, server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|116.59Mb", server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|68.92Mb", server: 167.88.62.104, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1676, server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|69.66Mb", server: 167.88.62.104, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|87.25Mb", server: 167.88.62.104, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|90.63Mb", server: 167.88.62.104, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|72.64Mb", server: 167.88.62.104, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2026, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1750, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1315, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1417 |125.01Mb, server: 38.75.136.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1424, server: 167.88.63.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2027, server: 38.114.114.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 426未名站_1371, server: 134.195.196.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1753, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 【426节点池】US_3553, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com, skip-cert-verify: true, udp: true}
-  - {name: "|69.38Mb", server: 167.88.62.104, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1732, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1393, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|70.14Mb", server: 167.88.62.104, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 426未名站_801, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 【426节点池】US_2816, server: 38.91.100.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2536, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 【426节点池】US_3102, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1738, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2013, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|64.65Mb", server: 38.86.135.36, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|86.23Mb", server: 167.88.62.104, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 【426节点池】US_3301, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1518, server: 142.202.48.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|63.43Mb", server: 38.86.135.36, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 426未名站_698, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1737, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_2477, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2535, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1730, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2042, server: 38.91.100.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2231, server: 134.195.196.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|60.83Mb", server: 38.86.135.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1422 |88.43Mb, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_371, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|65.31Mb", server: 167.88.62.104, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1758, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2031, server: 167.88.61.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1901, server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|65.51Mb", server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|20.30Mb", server: 167.88.62.104, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 【426节点池】AE_18, server: v2.db.hgwc.xyz, port: 10004, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.db.hgwc.xyz}, udp: true}
-  - {name: ZZ_2454, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 426未名站_1085, server: 134.195.196.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|19.40Mb", server: 38.86.135.36, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2485, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1736, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1909, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1932, server: 167.88.62.104, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 426未名站_1247, server: 134.195.196.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2023, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|62.43Mb", server: 167.88.62.104, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1480, server: 142.202.48.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1933, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|58.82Mb", server: 38.86.135.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|89.41Mb", server: 167.88.62.104, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1355, server: 38.114.114.67, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|88.83Mb", server: 167.88.62.104, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1275, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1832, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|91.57Mb", server: 167.88.62.104, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 【426节点池】HK_1401, server: gy.wozcjd.xyz, port: 21311, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_284, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_1455, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 426未名站_1320, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2611, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 426未名站_715, server: 134.195.196.147, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50001, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 50002, server: 134.195.196.12, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50003, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50004, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50005, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50006, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50007, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50008, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50009, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50010, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50011, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50012, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50013, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50014, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50015, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50016, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50017, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50018, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50019, server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50020, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50021, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50022, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50023, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50024, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50025, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50026, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50027, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50028, server: 134.195.196.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50029, server: 134.195.196.193, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50030, server: 134.195.196.193, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50031, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50032, server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50033, server: 134.195.196.147, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50034, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50035, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50036, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50037, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50038, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50039, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50040, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50041, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50042, server: 134.195.196.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50043, server: 134.195.196.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50044, server: 134.195.196.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50045, server: 134.195.196.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50046, server: 134.195.196.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50047, server: 134.195.196.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50048, server: 134.195.196.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50049, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50050, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50051, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50052, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50053, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50054, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50055, server: 134.195.196.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50056, server: 134.195.196.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50057, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50058, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50059, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50060, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50061, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50062, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50063, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50064, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50065, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50066, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50067, server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50068, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50069, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50070, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50071, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50072, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50073, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50074, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50075, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50076, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50077, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50078, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50079, server: ca-trojan.bonds.id, port: 443, type: trojan, password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50080, server: ca-trojan.bonds.id, port: 443, type: trojan, password: 36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50081, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50082, server: ca-trojan.bonds.id, port: 443, type: trojan, password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50083, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50084, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50085, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50086, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50087, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50088, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50089, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50090, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50091, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50092, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 50093, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 50094, server: 117.28.243.141, port: 6193, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50095, server: 117.28.243.141, port: 6112, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50096, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50097, server: 117.28.243.141, port: 6149, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50098, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50099, server: centralchina1.cloudlink123.com, port: 37000, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 50100, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 50101, server: centralchina1.cloudlink123.com, port: 37006, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 50102, server: gz1.52168.xyz, port: 1105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 50103, server: 183.195.235.47, port: 45089, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 50104, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 50105, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 50106, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50107, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: sh-hk-hgc-100m-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50108, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50109, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 50110, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50111, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50112, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50113, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 50114, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50115, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50116, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: SfobRIcergHchqBFzzua, sni: sh-hk-hgc-100m-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50117, server: e2322f9.na.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.na.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 50118, server: e2322f9.nd.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.nd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 50119, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 50120, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 50121, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50122, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50123, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 50124, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 50125, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50126, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50127, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50128, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50129, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50130, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50131, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50132, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50133, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50134, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50135, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50136, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50137, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50138, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50139, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50140, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50141, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50142, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50143, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50144, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50145, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50146, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50147, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50148, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50149, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50150, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50151, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50152, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50153, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50154, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50155, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 50156, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50157, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 50158, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50159, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50160, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50161, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50162, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 50163, server: 185.126.148.23, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
+  - {name: 50164, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 50165, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
+  - {name: 50166, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 50167, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50168, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272, sni: id2-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50169, server: 172.105.59.32, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50170, server: 172.105.59.32, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50171, server: 172.105.59.32, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50172, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50173, server: 172.105.59.32, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50174, server: 172.105.59.32, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50175, server: 172.105.59.32, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50176, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50177, server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50178, server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50179, server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50180, server: 172.105.59.32, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50181, server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50182, server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50183, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 50184, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50185, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50186, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50187, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50188, server: hmykr1.tk, port: 443, type: trojan, password: 998ec528-845f-4082-9e1b-26a642b26978, sni: hmykr1.tk, skip-cert-verify: true, udp: true}
+  - {name: 50189, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp10.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 50190, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 50191, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: share.softbank.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: 50192, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: tw.softbank.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: 50193, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50194, server: sg.xxioixx.com, port: 443, type: trojan, password: c86c28ca-615a-4e83-b3ef-832a0dee2efd, sni: sg.xxioixx.com, skip-cert-verify: true, udp: true}
+  - {name: 50195, server: j-d.xioix.cf, port: 443, type: trojan, password: d52f0642-2216-42db-84a9-d7b1cf9290db, sni: j-d.xioix.cf, skip-cert-verify: true, udp: true}
+  - {name: 50196, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50197, server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50198, server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50199, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50200, server: 172.104.168.83, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50201, server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50202, server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: 50203, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50204, server: 32.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 32.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50205, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50206, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50207, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50208, server: 210.241.243.8, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50209, server: 59.125.11.164, port: 8369, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50210, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: 50211, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 50212, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: 50213, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 50214, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50215, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50216, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50217, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50218, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50219, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50220, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50221, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50222, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50223, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50224, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50225, server: 142.202.48.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50226, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50227, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50228, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50229, server: 142.202.48.108, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50230, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50231, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50232, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50233, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50234, server: 142.202.48.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50235, server: 142.202.48.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50236, server: 142.202.48.81, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50237, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50238, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50239, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50240, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50241, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50242, server: 142.202.48.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50243, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50244, server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50245, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50246, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50247, server: 172.99.190.188, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50248, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50249, server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50250, server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50251, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50252, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50253, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50254, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50255, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50256, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50257, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50258, server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50259, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50260, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50261, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50262, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50263, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50264, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50265, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50266, server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50267, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50268, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50269, server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50270, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50271, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50272, server: 142.202.48.83, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50273, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50274, server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50275, server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50276, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50277, server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50278, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50279, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50280, server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50281, server: 142.202.48.108, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50282, server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50283, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50284, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50285, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50286, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50287, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50288, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50289, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50290, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50291, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50292, server: 38.91.102.86, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50293, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50294, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50295, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50296, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50297, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50298, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50299, server: 142.202.48.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50300, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50301, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50302, server: 142.202.48.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50303, server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50304, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50305, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50306, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50307, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50308, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50309, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50310, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50311, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50312, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50313, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50314, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50315, server: 142.202.48.108, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50316, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50317, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50318, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50319, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50320, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50321, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50322, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50323, server: 172.99.190.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50324, server: 172.99.190.188, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50325, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50326, server: 142.202.48.83, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50327, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50328, server: 38.64.138.145, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50329, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50330, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50331, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50332, server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50333, server: 142.202.48.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50334, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50335, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50336, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50337, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50338, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50339, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50340, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50341, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50342, server: 192.46.209.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50343, server: 192.46.209.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50344, server: 192.46.209.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50345, server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50346, server: 192.46.209.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50347, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50348, server: 192.46.209.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50349, server: 192.46.209.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50350, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50351, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50352, server: 38.68.134.23, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50353, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50354, server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50355, server: 142.202.48.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50356, server: 38.68.134.23, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50357, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50358, server: 142.202.48.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50359, server: 142.202.48.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50360, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50361, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50362, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50363, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50364, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50365, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50366, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50367, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50368, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50369, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50370, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50371, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50372, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50373, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50374, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50375, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50376, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50377, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50378, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50379, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50380, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50381, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50382, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50383, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50384, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50385, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50386, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50387, server: 172.99.190.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50388, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50389, server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50390, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: 50391, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: 50392, server: cdn005.youxi.gay, port: 443, type: trojan, password: 77cfb34f-c392-44ce-b04f-fca947bf82ab, sni: cdn005.youxi.gay, skip-cert-verify: true, udp: true}
+  - {name: 50393, server: us-02-api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: us-02-api.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: 50394, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 52face98-c4cb-4299-aa38-9546085b0619, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 50395, server: vwvwvw.xyz, port: 443, type: trojan, password: 4491a040-7417-427f-8c0b-303c7258888f, sni: vwvwvw.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50396, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: 50397, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, sni: xioix.gq, skip-cert-verify: true, udp: true}
+  - {name: 50398, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50399, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu, skip-cert-verify: true, udp: true}
+  - {name: 50400, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50401, server: oioooo.tk, port: 443, type: trojan, password: b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4, sni: oioooo.tk, skip-cert-verify: true, udp: true}
+  - {name: 50402, server: 56789.gq, port: 443, type: trojan, password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3, sni: 56789.gq, skip-cert-verify: true, udp: true}
+  - {name: 50403, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 50404, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
+  - {name: 50405, server: a2.centaur.network, port: 8081, type: trojan, password: cdcf03f6-5326-4496-a1d1-03bb098ad56f, sni: a2.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 50406, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: 50407, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50408, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50409, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50410, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50411, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50412, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50413, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50414, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50415, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50416, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50417, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50418, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50419, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50420, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50421, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50422, server: hzlt.tuboshu.space, port: 18807, type: vmess, uuid: 047a9da8-4e01-3f9f-a3a6-b4eb10153b05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: 50423, server: fosyd.tuboshu.space, port: 18807, type: vmess, uuid: 047a9da8-4e01-3f9f-a3a6-b4eb10153b05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: 50424, server: 117.28.243.164, port: 8366, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50425, server: 116.162.33.223, port: 37006, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 50426, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50427, server: 116.162.33.223, port: 37000, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 50428, server: gzydddns.xyz, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50429, server: gzydddns.xyz, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50430, server: gzydddns.xyz, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50431, server: gzydddns.xyz, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50432, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962, udp: true}
+  - {name: 50433, server: gzydddns.xyz, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50434, server: gzydddns.xyz, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50435, server: gzydddns.xyz, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50436, server: gzydddns.xyz, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50437, server: gzydddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50438, server: gzydddns.xyz, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50439, server: gzydddns.xyz, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50440, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 50441, server: gzydddns.xyz, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13714:LswI8M, obfs-param: e832c13714.microsoft.com, udp: true}
+  - {name: 50442, server: fosyd.tuboshu.space, port: 18809, type: vmess, uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: 50443, server: hzlt.tuboshu.space, port: 18810, type: vmess, uuid: 047a9da8-4e01-3f9f-a3a6-b4eb10153b05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: 50444, server: fosyd.tuboshu.space, port: 18810, type: vmess, uuid: 047a9da8-4e01-3f9f-a3a6-b4eb10153b05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: 50445, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50446, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50447, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50448, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50449, server: 45.91.83.23, port: 8226, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50450, server: 45.91.83.25, port: 8228, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50451, server: 45.91.83.228, port: 6463, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50452, server: 45.91.83.51, port: 8052, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50453, server: 45.91.83.218, port: 8421, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50454, server: 45.91.83.226, port: 6349, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50455, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50456, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50457, server: 42.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 42.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50458, server: 40.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50459, server: 40.earths.team, port: 443, type: trojan, password: 73fddb66-9a3a-4a51-a043-7127ba32d1da, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50460, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50461, server: 103.253.43.177, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
+  - {name: 50462, server: 172.105.59.32, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50463, server: 172.105.59.32, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50464, server: 172.105.59.32, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50465, server: 172.105.59.32, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50466, server: 172.105.59.32, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50467, server: 172.105.59.32, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50468, server: 172.105.59.32, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50469, server: 172.105.59.32, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50470, server: 172.105.59.32, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50471, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /V81DFD0H, ws-headers: {Host: india.tgsc.xyz}, udp: true}
+  - {name: 50472, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50473, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50474, server: 118.107.44.38, port: 8360, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50475, server: ss-node-3.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: 50476, server: 118.107.44.6, port: 8329, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50477, server: 18.142.48.100, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: 50478, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50479, server: 32.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 32.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50480, server: 192.46.209.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50481, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50482, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50483, server: 38.114.114.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50484, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50485, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50486, server: 192.46.209.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50487, server: 172.99.190.205, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50488, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50489, server: 38.68.134.23, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50490, server: 172.99.190.188, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50491, server: 192.46.209.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50492, server: 192.46.209.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50493, server: 172.99.190.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50494, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50495, server: 192.46.209.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50496, server: 38.64.138.145, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50497, server: 192.46.209.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50498, server: 38.68.134.23, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50499, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50500, server: 172.99.190.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50501, server: 192.46.209.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50502, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50503, server: 172.99.190.188, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50504, server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50505, server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50506, server: 172.99.190.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50507, server: 192.46.209.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50508, server: 192.46.209.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50509, server: 192.46.209.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50510, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50511, server: 38.68.134.23, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50512, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50513, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50514, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50515, server: 192.46.209.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50516, server: 192.46.209.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50517, server: 192.46.209.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50518, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50519, server: 38.68.134.23, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50520, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50521, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50522, server: 172.99.190.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50523, server: 185.161.70.153, port: 15005, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: 50524, server: 158.247.203.168, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50525, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50526, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50527, server: 192.46.209.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50528, server: 192.46.209.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50529, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50530, server: 192.46.209.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50531, server: 206.119.125.56, port: 8269, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50532, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50533, server: 38.91.102.86, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50534, server: 38.68.134.23, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50535, server: 172.99.190.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50536, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50537, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50538, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50539, server: 172.99.190.188, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50540, server: 107.148.254.213, port: 8426, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50541, server: 3.110.81.107, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 50542, server: j2.pbaplink.xyz, port: 2082, type: vmess, uuid: ad983854-167d-478f-88eb-5d494d3b2c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: j2.pbaplink.xyz}, udp: true}
+  - {name: 50543, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50544, server: s2.kaxff.com, port: 32432, type: trojan, password: OcABzr5wEG, sni: s2.kaxff.com, skip-cert-verify: true, udp: true}
+  - {name: 50545, server: ocph.vproxy.us, port: 34567, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: ocph.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: 50546, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50547, server: 20.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 20.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 50548, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50549, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50550, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50551, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50552, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50553, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50554, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50555, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50556, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50557, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50558, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50559, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50560, server: 169.197.142.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50561, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50562, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50563, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50564, server: 134.195.196.147, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50565, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50566, server: 134.195.196.147, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50567, server: 169.197.142.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50568, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50569, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50570, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50571, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50572, server: 134.195.196.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50573, server: 134.195.196.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50574, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50575, server: 134.195.196.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50576, server: 134.195.196.193, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50577, server: 134.195.196.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50578, server: 134.195.196.147, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50579, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50580, server: 134.195.196.193, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50581, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50582, server: 134.195.196.147, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50583, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50584, server: 83.229.73.60, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: 50585, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 50586, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50587, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50588, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 50589, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 50590, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
+  - {name: 50591, server: sg.xxioixx.com, port: 443, type: trojan, password: 93bda856-e793-39cd-9a53-a113a80d68a0, sni: sg.xxioixx.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -508,123 +2404,597 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -635,368 +3005,1790 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1012,123 +4804,597 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_727
-      - 【426节点池】HK_1459
-      - 【426节点池】US_3548
-      - US_2345
-      - US_2343
-      - CN_412
-      - 【426节点池】US_3501
-      - 【426节点池】US_3523
-      - 【426节点池】HK_1460
-      - Relay_🇪🇪EE-🇯🇵JP_389
-      - Relay_🇪🇪EE-🇯🇵JP_387
-      - HK_724
-      - US_2357
-      - Relay_🇪🇪EE-🇯🇵JP_375
-      - 【426节点池】HK_1462
-      - 【426节点池】CN_339
-      - US_2348
-      - 【426节点池】HK_1412
-      - US_1872
-      - US_2022
-      - 【426节点池】HK_1404
-      - "|51.79Mb"
-      - "|50.40Mb"
-      - 【426节点池】HK_1402
-      - US_1501
-      - US_2024
-      - ZZ_2416
-      - 【426节点池】HK_1440
-      - 【426节点池】US_2328
-      - US_1467
-      - US_1728
-      - "|98.32Mb"
-      - US_1413
-      - US_2028
-      - ZZ_2556
-      - US_1751
-      - US_1857
-      - "|71.11Mb"
-      - US_1766
-      - US_1917
-      - "|76.49Mb"
-      - "|124.56Mb"
-      - "|71.52Mb"
-      - US_1373
-      - "|116.59Mb"
-      - "|68.92Mb"
-      - US_1676
-      - "|69.66Mb"
-      - "|87.25Mb"
-      - "|90.63Mb"
-      - "|72.64Mb"
-      - US_2026
-      - US_1750
-      - US_1315
-      - US_1417 |125.01Mb
-      - US_1424
-      - US_2027
-      - 426未名站_1371
-      - US_1753
-      - 【426节点池】US_3553
-      - "|69.38Mb"
-      - US_1732
-      - US_1393
-      - "|70.14Mb"
-      - 426未名站_801
-      - 【426节点池】US_2816
-      - ZZ_2536
-      - 【426节点池】US_3102
-      - US_1738
-      - US_2013
-      - "|64.65Mb"
-      - "|86.23Mb"
-      - 【426节点池】US_3301
-      - US_1518
-      - "|63.43Mb"
-      - 426未名站_698
-      - US_1737
-      - ZZ_2477
-      - ZZ_2535
-      - US_1730
-      - US_2042
-      - ZZ_2231
-      - "|60.83Mb"
-      - US_1422 |88.43Mb
-      - Relay_🇪🇪EE-🇯🇵JP_371
-      - "|65.31Mb"
-      - US_1758
-      - US_2031
-      - US_1901
-      - "|65.51Mb"
-      - "|20.30Mb"
-      - 【426节点池】AE_18
-      - ZZ_2454
-      - 426未名站_1085
-      - "|19.40Mb"
-      - ZZ_2485
-      - US_1736
-      - US_1909
-      - US_1932
-      - 426未名站_1247
-      - US_2023
-      - "|62.43Mb"
-      - US_1480
-      - US_1933
-      - "|58.82Mb"
-      - "|89.41Mb"
-      - US_1355
-      - "|88.83Mb"
-      - US_1275
-      - US_1832
-      - "|91.57Mb"
-      - 【426节点池】HK_1401
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - US_1455
-      - 426未名站_1320
-      - ZZ_2611
-      - 426未名站_715
+      - 50001
+      - 50002
+      - 50003
+      - 50004
+      - 50005
+      - 50006
+      - 50007
+      - 50008
+      - 50009
+      - 50010
+      - 50011
+      - 50012
+      - 50013
+      - 50014
+      - 50015
+      - 50016
+      - 50017
+      - 50018
+      - 50019
+      - 50020
+      - 50021
+      - 50022
+      - 50023
+      - 50024
+      - 50025
+      - 50026
+      - 50027
+      - 50028
+      - 50029
+      - 50030
+      - 50031
+      - 50032
+      - 50033
+      - 50034
+      - 50035
+      - 50036
+      - 50037
+      - 50038
+      - 50039
+      - 50040
+      - 50041
+      - 50042
+      - 50043
+      - 50044
+      - 50045
+      - 50046
+      - 50047
+      - 50048
+      - 50049
+      - 50050
+      - 50051
+      - 50052
+      - 50053
+      - 50054
+      - 50055
+      - 50056
+      - 50057
+      - 50058
+      - 50059
+      - 50060
+      - 50061
+      - 50062
+      - 50063
+      - 50064
+      - 50065
+      - 50066
+      - 50067
+      - 50068
+      - 50069
+      - 50070
+      - 50071
+      - 50072
+      - 50073
+      - 50074
+      - 50075
+      - 50076
+      - 50077
+      - 50078
+      - 50079
+      - 50080
+      - 50081
+      - 50082
+      - 50083
+      - 50084
+      - 50085
+      - 50086
+      - 50087
+      - 50088
+      - 50089
+      - 50090
+      - 50091
+      - 50092
+      - 50093
+      - 50094
+      - 50095
+      - 50096
+      - 50097
+      - 50098
+      - 50099
+      - 50100
+      - 50101
+      - 50102
+      - 50103
+      - 50104
+      - 50105
+      - 50106
+      - 50107
+      - 50108
+      - 50109
+      - 50110
+      - 50111
+      - 50112
+      - 50113
+      - 50114
+      - 50115
+      - 50116
+      - 50117
+      - 50118
+      - 50119
+      - 50120
+      - 50121
+      - 50122
+      - 50123
+      - 50124
+      - 50125
+      - 50126
+      - 50127
+      - 50128
+      - 50129
+      - 50130
+      - 50131
+      - 50132
+      - 50133
+      - 50134
+      - 50135
+      - 50136
+      - 50137
+      - 50138
+      - 50139
+      - 50140
+      - 50141
+      - 50142
+      - 50143
+      - 50144
+      - 50145
+      - 50146
+      - 50147
+      - 50148
+      - 50149
+      - 50150
+      - 50151
+      - 50152
+      - 50153
+      - 50154
+      - 50155
+      - 50156
+      - 50157
+      - 50158
+      - 50159
+      - 50160
+      - 50161
+      - 50162
+      - 50163
+      - 50164
+      - 50165
+      - 50166
+      - 50167
+      - 50168
+      - 50169
+      - 50170
+      - 50171
+      - 50172
+      - 50173
+      - 50174
+      - 50175
+      - 50176
+      - 50177
+      - 50178
+      - 50179
+      - 50180
+      - 50181
+      - 50182
+      - 50183
+      - 50184
+      - 50185
+      - 50186
+      - 50187
+      - 50188
+      - 50189
+      - 50190
+      - 50191
+      - 50192
+      - 50193
+      - 50194
+      - 50195
+      - 50196
+      - 50197
+      - 50198
+      - 50199
+      - 50200
+      - 50201
+      - 50202
+      - 50203
+      - 50204
+      - 50205
+      - 50206
+      - 50207
+      - 50208
+      - 50209
+      - 50210
+      - 50211
+      - 50212
+      - 50213
+      - 50214
+      - 50215
+      - 50216
+      - 50217
+      - 50218
+      - 50219
+      - 50220
+      - 50221
+      - 50222
+      - 50223
+      - 50224
+      - 50225
+      - 50226
+      - 50227
+      - 50228
+      - 50229
+      - 50230
+      - 50231
+      - 50232
+      - 50233
+      - 50234
+      - 50235
+      - 50236
+      - 50237
+      - 50238
+      - 50239
+      - 50240
+      - 50241
+      - 50242
+      - 50243
+      - 50244
+      - 50245
+      - 50246
+      - 50247
+      - 50248
+      - 50249
+      - 50250
+      - 50251
+      - 50252
+      - 50253
+      - 50254
+      - 50255
+      - 50256
+      - 50257
+      - 50258
+      - 50259
+      - 50260
+      - 50261
+      - 50262
+      - 50263
+      - 50264
+      - 50265
+      - 50266
+      - 50267
+      - 50268
+      - 50269
+      - 50270
+      - 50271
+      - 50272
+      - 50273
+      - 50274
+      - 50275
+      - 50276
+      - 50277
+      - 50278
+      - 50279
+      - 50280
+      - 50281
+      - 50282
+      - 50283
+      - 50284
+      - 50285
+      - 50286
+      - 50287
+      - 50288
+      - 50289
+      - 50290
+      - 50291
+      - 50292
+      - 50293
+      - 50294
+      - 50295
+      - 50296
+      - 50297
+      - 50298
+      - 50299
+      - 50300
+      - 50301
+      - 50302
+      - 50303
+      - 50304
+      - 50305
+      - 50306
+      - 50307
+      - 50308
+      - 50309
+      - 50310
+      - 50311
+      - 50312
+      - 50313
+      - 50314
+      - 50315
+      - 50316
+      - 50317
+      - 50318
+      - 50319
+      - 50320
+      - 50321
+      - 50322
+      - 50323
+      - 50324
+      - 50325
+      - 50326
+      - 50327
+      - 50328
+      - 50329
+      - 50330
+      - 50331
+      - 50332
+      - 50333
+      - 50334
+      - 50335
+      - 50336
+      - 50337
+      - 50338
+      - 50339
+      - 50340
+      - 50341
+      - 50342
+      - 50343
+      - 50344
+      - 50345
+      - 50346
+      - 50347
+      - 50348
+      - 50349
+      - 50350
+      - 50351
+      - 50352
+      - 50353
+      - 50354
+      - 50355
+      - 50356
+      - 50357
+      - 50358
+      - 50359
+      - 50360
+      - 50361
+      - 50362
+      - 50363
+      - 50364
+      - 50365
+      - 50366
+      - 50367
+      - 50368
+      - 50369
+      - 50370
+      - 50371
+      - 50372
+      - 50373
+      - 50374
+      - 50375
+      - 50376
+      - 50377
+      - 50378
+      - 50379
+      - 50380
+      - 50381
+      - 50382
+      - 50383
+      - 50384
+      - 50385
+      - 50386
+      - 50387
+      - 50388
+      - 50389
+      - 50390
+      - 50391
+      - 50392
+      - 50393
+      - 50394
+      - 50395
+      - 50396
+      - 50397
+      - 50398
+      - 50399
+      - 50400
+      - 50401
+      - 50402
+      - 50403
+      - 50404
+      - 50405
+      - 50406
+      - 50407
+      - 50408
+      - 50409
+      - 50410
+      - 50411
+      - 50412
+      - 50413
+      - 50414
+      - 50415
+      - 50416
+      - 50417
+      - 50418
+      - 50419
+      - 50420
+      - 50421
+      - 50422
+      - 50423
+      - 50424
+      - 50425
+      - 50426
+      - 50427
+      - 50428
+      - 50429
+      - 50430
+      - 50431
+      - 50432
+      - 50433
+      - 50434
+      - 50435
+      - 50436
+      - 50437
+      - 50438
+      - 50439
+      - 50440
+      - 50441
+      - 50442
+      - 50443
+      - 50444
+      - 50445
+      - 50446
+      - 50447
+      - 50448
+      - 50449
+      - 50450
+      - 50451
+      - 50452
+      - 50453
+      - 50454
+      - 50455
+      - 50456
+      - 50457
+      - 50458
+      - 50459
+      - 50460
+      - 50461
+      - 50462
+      - 50463
+      - 50464
+      - 50465
+      - 50466
+      - 50467
+      - 50468
+      - 50469
+      - 50470
+      - 50471
+      - 50472
+      - 50473
+      - 50474
+      - 50475
+      - 50476
+      - 50477
+      - 50478
+      - 50479
+      - 50480
+      - 50481
+      - 50482
+      - 50483
+      - 50484
+      - 50485
+      - 50486
+      - 50487
+      - 50488
+      - 50489
+      - 50490
+      - 50491
+      - 50492
+      - 50493
+      - 50494
+      - 50495
+      - 50496
+      - 50497
+      - 50498
+      - 50499
+      - 50500
+      - 50501
+      - 50502
+      - 50503
+      - 50504
+      - 50505
+      - 50506
+      - 50507
+      - 50508
+      - 50509
+      - 50510
+      - 50511
+      - 50512
+      - 50513
+      - 50514
+      - 50515
+      - 50516
+      - 50517
+      - 50518
+      - 50519
+      - 50520
+      - 50521
+      - 50522
+      - 50523
+      - 50524
+      - 50525
+      - 50526
+      - 50527
+      - 50528
+      - 50529
+      - 50530
+      - 50531
+      - 50532
+      - 50533
+      - 50534
+      - 50535
+      - 50536
+      - 50537
+      - 50538
+      - 50539
+      - 50540
+      - 50541
+      - 50542
+      - 50543
+      - 50544
+      - 50545
+      - 50546
+      - 50547
+      - 50548
+      - 50549
+      - 50550
+      - 50551
+      - 50552
+      - 50553
+      - 50554
+      - 50555
+      - 50556
+      - 50557
+      - 50558
+      - 50559
+      - 50560
+      - 50561
+      - 50562
+      - 50563
+      - 50564
+      - 50565
+      - 50566
+      - 50567
+      - 50568
+      - 50569
+      - 50570
+      - 50571
+      - 50572
+      - 50573
+      - 50574
+      - 50575
+      - 50576
+      - 50577
+      - 50578
+      - 50579
+      - 50580
+      - 50581
+      - 50582
+      - 50583
+      - 50584
+      - 50585
+      - 50586
+      - 50587
+      - 50588
+      - 50589
+      - 50590
+      - 50591
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
