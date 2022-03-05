@@ -5,295 +5,175 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️♥️梦歌♥️♥️_295, server: gzydddns.xyz, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: 1457c169.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_46, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 2724fc23-7fc1-47e0-877d-949976f60c96, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_297, server: gzydddns.xyz, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: 1457c169.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_39, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 2724fc23-7fc1-47e0-877d-949976f60c96, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_371, server: in04.dns2333.xyz, port: 63086, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_569, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_158, server: 183.232.56.81, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_499, server: 183.232.56.161, port: 4099, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_163, server: 183.232.56.81, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_348, server: 183.232.56.161, port: 8014, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_157, server: 183.232.56.81, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_163, server: in02.dns2333.xyz, port: 63004, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_175, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_154, server: in02.dns2333.xyz, port: 63088, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_132, server: in02.dns2333.xyz, port: 63087, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_162, server: 183.232.56.81, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_397, server: wsc3456.tk, port: 443, type: vmess, uuid: a9c66278-247e-443b-9706-d0ce8a130ef0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: wsc3456.tk}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_49, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_367, server: in02.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_298, server: gzydddns.xyz, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: 1457c169.microsoft.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_377, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_51, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_356, server: in05.dns2333.xyz, port: 63088, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_296, server: gzydddns.xyz, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: 1457c169.microsoft.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_350, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_130, server: 120.233.10.182, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: t.me/mengge88888888, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_370, server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-group-a-direct.node001.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_361, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_365, server: in04.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_410, server: gzyd.wozcjd.xyz, port: 11359, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_294, server: gzydddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: 1457c169.microsoft.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_131, server: 120.233.10.182, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️YouTube梦歌♥️_176, server: in02.dns2333.xyz, port: 63004, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_161, server: 183.232.56.81, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_167, server: in02.dns2333.xyz, port: 63081, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_469, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_160, server: 183.232.56.81, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_18, server: 183.232.56.161, port: 1101, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_162, server: in02.dns2333.xyz, port: 63021, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_164, server: 183.232.56.81, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️YouTube梦歌♥️_159, server: 183.232.56.81, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 169:VjNJX6, obfs-param: t.me/mengge88888888, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_152, server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-ru01.myn1des.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_14, server: 198.57.27.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️YouTube梦歌♥️_181, server: in04.dns2333.xyz, port: 63071, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_400, server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_62, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_444, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_515, server: wagong.shichengwang.top, port: 47307, type: vmess, uuid: 9fa143db-4bd4-4b7a-8e5a-de86c2c7281b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_824, server: us-am11.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_166, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_22, server: 112.118.0.202, port: 4080, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 112.118.0.202}, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_772, server: wagong.shichengwang.top, port: 47307, type: vmess, uuid: 9fa143db-4bd4-4b7a-8e5a-de86c2c7281b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_239, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1377, server: 172.105.253.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_17, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1410, server: 172.105.253.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1445, server: 172.105.253.119, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1411, server: 172.105.253.119, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1431, server: 172.105.253.119, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1386, server: 172.105.253.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_421, server: fancy-wildflower-2641.2112898766397.workers.dev, port: 443, type: vmess, uuid: ed049663-25a3-4300-93e3-8d7966b2bb19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ed049663-25a3-4300-93e3-8d7966b2bb19-vmess, ws-headers: {Host: fancy-wildflower-2641.2112898766397.workers.dev}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1374, server: 172.105.253.119, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1488, server: 172.105.253.119, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1401, server: 172.105.253.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1484, server: 172.105.253.119, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1424, server: 172.105.253.119, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1460, server: 172.105.253.119, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1409, server: 172.105.253.119, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_187, server: 172.105.171.80, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_146, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1419, server: 172.105.253.119, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1407, server: 172.105.253.119, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1471, server: 172.105.253.119, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_324, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_409, server: gzyd.wozcjd.xyz, port: 11331, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1001, server: 172.105.253.119, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1376, server: 172.105.253.119, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_73, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1426, server: 172.105.253.119, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1002, server: 172.105.253.119, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_8, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_132, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_997, server: 172.105.253.119, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_80, server: hkt.jslist.tk, port: 8880, type: vmess, uuid: efe08abe-e627-4f72-f02f-af00692a0bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/images, ws-headers: {Host: hkt.jslist.tk}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_360, server: in05.dns2333.xyz, port: 63071, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_143, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_1, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_245, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_201, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_359, server: in02.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_165, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_66, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_105, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_80, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_128, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_133, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_244, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_479, server: 193.108.117.75, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_168, server: in02.dns2333.xyz, port: 63082, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt3-cdn.tencent.best}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_161, server: in04.dns2333.xyz, port: 63014, type: vmess, uuid: f5851fa4-8c76-3148-860e-9641afcd3576, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_26, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_468, server: 45.91.92.191, port: 23102, type: vmess, uuid: 48e0a875-abf7-4fbf-930b-0a3ad8004cbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 45.91.92.191}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_124, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,74 +192,44 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -390,221 +240,131 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -620,74 +380,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️梦歌♥️♥️_295
-      - ♥️♥️YouTube梦歌♥️♥️_46
-      - ♥️♥️梦歌♥️♥️_297
-      - ♥️♥️YouTube梦歌♥️♥️_39
-      - ♥️♥️梦歌♥️♥️_371
+      - ♥️♥️YouTube梦歌♥️♥️_569
+      - ♥️YouTube梦歌♥️_158
+      - ♥️♥️YouTube梦歌♥️♥️_499
+      - ♥️YouTube梦歌♥️_163
+      - ♥️♥️YouTube梦歌♥️♥️_348
+      - ♥️YouTube梦歌♥️_157
+      - ♥️♥️YouTube梦歌♥️♥️_163
+      - ♥️YouTube梦歌♥️_175
+      - ♥️♥️YouTube梦歌♥️♥️_154
+      - ♥️YouTube梦歌♥️_132
+      - ♥️YouTube梦歌♥️_162
       - ♥️♥️YouTube梦歌♥️♥️_397
-      - ♥️♥️梦歌♥️♥️_49
-      - ♥️♥️梦歌♥️♥️_367
-      - ♥️♥️梦歌♥️♥️_298
-      - ♥️♥️梦歌♥️♥️_377
-      - ♥️♥️梦歌♥️♥️_51
-      - ♥️♥️梦歌♥️♥️_356
-      - ♥️♥️梦歌♥️♥️_296
-      - ♥️♥️梦歌♥️♥️_350
-      - ♥️♥️梦歌♥️♥️_130
-      - ♥️♥️梦歌♥️♥️_370
-      - ♥️♥️梦歌♥️♥️_361
-      - ♥️♥️梦歌♥️♥️_365
-      - ♥️♥️梦歌♥️♥️_410
-      - ♥️♥️梦歌♥️♥️_294
-      - ♥️♥️梦歌♥️♥️_131
+      - ♥️YouTube梦歌♥️_176
+      - ♥️YouTube梦歌♥️_161
+      - ♥️♥️YouTube梦歌♥️♥️_167
+      - ♥️♥️YouTube梦歌♥️♥️_469
+      - ♥️YouTube梦歌♥️_160
+      - ♥️♥️YouTube梦歌♥️♥️_18
+      - ♥️♥️YouTube梦歌♥️♥️_162
+      - ♥️YouTube梦歌♥️_164
+      - ♥️YouTube梦歌♥️_159
+      - ♥️♥️YouTube梦歌♥️♥️_152
+      - ♥️♥️YouTube梦歌♥️♥️_14
+      - ♥️YouTube梦歌♥️_181
+      - ♥️♥️梦歌♥️♥️_400
+      - ♥️♥️YouTube梦歌♥️♥️_62
+      - ♥️♥️YouTube梦歌♥️♥️_444
       - ♥️♥️YouTube梦歌♥️♥️_515
+      - ♥️♥️YouTube梦歌♥️♥️_824
+      - ♥️♥️YouTube梦歌♥️♥️_166
+      - ♥️♥️YouTube梦歌♥️♥️_22
       - ♥️♥️YouTube梦歌♥️♥️_772
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - ♥️♥️YouTube梦歌♥️♥️_1377
-      - ♥️♥️梦歌♥️♥️_17
-      - ♥️♥️YouTube梦歌♥️♥️_1410
-      - ♥️♥️YouTube梦歌♥️♥️_1445
-      - ♥️♥️YouTube梦歌♥️♥️_1411
-      - ♥️♥️YouTube梦歌♥️♥️_1431
-      - ♥️♥️YouTube梦歌♥️♥️_1386
-      - ♥️♥️YouTube梦歌♥️♥️_421
-      - ♥️♥️YouTube梦歌♥️♥️_1374
-      - ♥️♥️YouTube梦歌♥️♥️_1488
-      - ♥️♥️YouTube梦歌♥️♥️_1401
-      - ♥️♥️YouTube梦歌♥️♥️_1484
-      - ♥️♥️YouTube梦歌♥️♥️_1424
-      - ♥️♥️YouTube梦歌♥️♥️_1460
-      - ♥️♥️YouTube梦歌♥️♥️_1409
-      - ♥️♥️梦歌♥️♥️_187
-      - ♥️♥️YouTube梦歌♥️♥️_146
-      - ♥️♥️YouTube梦歌♥️♥️_1419
-      - ♥️♥️YouTube梦歌♥️♥️_1407
-      - ♥️♥️YouTube梦歌♥️♥️_1471
-      - ♥️♥️梦歌♥️♥️_324
-      - ♥️♥️梦歌♥️♥️_409
-      - ♥️♥️YouTube梦歌♥️♥️_1001
-      - ♥️♥️YouTube梦歌♥️♥️_1376
-      - ♥️♥️YouTube梦歌♥️♥️_73
-      - ♥️♥️YouTube梦歌♥️♥️_1426
-      - ♥️♥️YouTube梦歌♥️♥️_1002
-      - ♥️♥️梦歌♥️♥️_8
-      - ♥️♥️YouTube梦歌♥️♥️_132
-      - ♥️♥️YouTube梦歌♥️♥️_997
-      - ♥️♥️梦歌♥️♥️_80
-      - ♥️♥️梦歌♥️♥️_360
-      - ♥️♥️YouTube梦歌♥️♥️_143
-      - ♥️♥️梦歌♥️♥️_1
-      - ♥️♥️YouTube梦歌♥️♥️_245
-      - ♥️♥️YouTube梦歌♥️♥️_201
-      - ♥️♥️梦歌♥️♥️_359
-      - ♥️♥️YouTube梦歌♥️♥️_165
-      - ♥️♥️YouTube梦歌♥️♥️_66
-      - ♥️♥️YouTube梦歌♥️♥️_105
-      - ♥️♥️YouTube梦歌♥️♥️_80
-      - ♥️♥️YouTube梦歌♥️♥️_128
-      - ♥️♥️YouTube梦歌♥️♥️_133
-      - ♥️♥️YouTube梦歌♥️♥️_244
+      - ♥️♥️YouTube梦歌♥️♥️_479
+      - ♥️♥️YouTube梦歌♥️♥️_168
+      - ♥️♥️YouTube梦歌♥️♥️_161
+      - ♥️YouTube梦歌♥️_26
+      - ♥️♥️YouTube梦歌♥️♥️_468
+      - ♥️YouTube梦歌♥️_124
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
