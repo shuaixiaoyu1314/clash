@@ -5,263 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_32 TG@peekfun, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ZZ_162 TG@peekfun, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_172 TG@peekfun, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_156 TG@peekfun, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_113 TG@peekfun, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_173 TG@peekfun, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_167 TG@peekfun, server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_114 TG@peekfun, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_145 TG@peekfun, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_115 TG@peekfun, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_101 TG@peekfun, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_121 TG@peekfun, server: 38.143.66.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_170 TG@peekfun, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_179 TG@peekfun, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_178 TG@peekfun, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_174 TG@peekfun, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_146 TG@peekfun, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_175 TG@peekfun, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_67 TG@peekfun, server: 185.126.148.23, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
-  - {name: ZZ_153 TG@peekfun, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_160 TG@peekfun, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_161 TG@peekfun, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_169 TG@peekfun, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_155 TG@peekfun, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_181 TG@peekfun, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_164 TG@peekfun, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_151 TG@peekfun, server: 169.197.141.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_158 TG@peekfun, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_112 TG@peekfun, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_103 TG@peekfun, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_182 TG@peekfun, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_117 TG@peekfun, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_171 TG@peekfun, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_180 TG@peekfun, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_106 TG@peekfun, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_102 TG@peekfun, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_147 TG@peekfun, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_148 TG@peekfun, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_96 TG@peekfun, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_144 TG@peekfun, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_111 TG@peekfun, server: 38.143.66.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_120 TG@peekfun, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_152 TG@peekfun, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_176 TG@peekfun, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_107 TG@peekfun, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_109 TG@peekfun, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_116 TG@peekfun, server: 167.88.61.175, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_157 TG@peekfun, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_154 TG@peekfun, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_118 TG@peekfun, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN_45 TG@peekfun, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: ZZ_166 TG@peekfun, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_149 TG@peekfun, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_97 TG@peekfun, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_63 TG@peekfun, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_159 TG@peekfun, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: DE_53 TG@peekfun, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: US_98 TG@peekfun, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_99 TG@peekfun, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: IT_78 TG@peekfun, server: 158.58.173.240, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_85 TG@peekfun, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_113 TG@peekfun, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_114 TG@peekfun, server: 134.195.196.147, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_112 TG@peekfun, server: 134.195.196.147, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_116 TG@peekfun, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_103 TG@peekfun, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CN_31 TG@peekfun, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ZZ_104 TG@peekfun, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_108 TG@peekfun, server: 134.195.196.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_102 TG@peekfun, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_138 TG@peekfun, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_80 TG@peekfun, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_107 TG@peekfun, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_109 TG@peekfun, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_78 TG@peekfun, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_128 TG@peekfun, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_79 TG@peekfun, server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_145 TG@peekfun, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,66 +112,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -350,197 +140,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -556,66 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_32 TG@peekfun
-      - ZZ_162 TG@peekfun
-      - ZZ_172 TG@peekfun
-      - ZZ_156 TG@peekfun
-      - US_113 TG@peekfun
-      - ZZ_173 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - US_114 TG@peekfun
+      - US_85 TG@peekfun
+      - ZZ_113 TG@peekfun
+      - ZZ_114 TG@peekfun
+      - ZZ_112 TG@peekfun
+      - ZZ_116 TG@peekfun
+      - ZZ_103 TG@peekfun
+      - CN_31 TG@peekfun
+      - ZZ_104 TG@peekfun
+      - ZZ_108 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_138 TG@peekfun
+      - US_80 TG@peekfun
+      - ZZ_107 TG@peekfun
+      - ZZ_109 TG@peekfun
+      - US_78 TG@peekfun
+      - ZZ_128 TG@peekfun
+      - US_79 TG@peekfun
       - ZZ_145 TG@peekfun
-      - US_115 TG@peekfun
-      - US_101 TG@peekfun
-      - US_121 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_179 TG@peekfun
-      - ZZ_178 TG@peekfun
-      - ZZ_174 TG@peekfun
-      - ZZ_146 TG@peekfun
-      - ZZ_175 TG@peekfun
-      - GB_67 TG@peekfun
-      - ZZ_153 TG@peekfun
-      - ZZ_160 TG@peekfun
-      - ZZ_161 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_155 TG@peekfun
-      - ZZ_181 TG@peekfun
-      - ZZ_164 TG@peekfun
-      - ZZ_151 TG@peekfun
-      - ZZ_158 TG@peekfun
-      - US_112 TG@peekfun
-      - US_103 TG@peekfun
-      - ZZ_182 TG@peekfun
-      - US_117 TG@peekfun
-      - ZZ_171 TG@peekfun
-      - ZZ_180 TG@peekfun
-      - US_106 TG@peekfun
-      - US_102 TG@peekfun
-      - ZZ_147 TG@peekfun
-      - ZZ_148 TG@peekfun
-      - US_96 TG@peekfun
-      - ZZ_144 TG@peekfun
-      - US_111 TG@peekfun
-      - US_120 TG@peekfun
-      - ZZ_152 TG@peekfun
-      - ZZ_176 TG@peekfun
-      - US_107 TG@peekfun
-      - US_109 TG@peekfun
-      - US_116 TG@peekfun
-      - ZZ_157 TG@peekfun
-      - ZZ_154 TG@peekfun
-      - US_118 TG@peekfun
-      - CN_45 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_149 TG@peekfun
-      - US_97 TG@peekfun
-      - GB_63 TG@peekfun
-      - ZZ_159 TG@peekfun
-      - DE_53 TG@peekfun
-      - US_98 TG@peekfun
-      - US_99 TG@peekfun
-      - IT_78 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
